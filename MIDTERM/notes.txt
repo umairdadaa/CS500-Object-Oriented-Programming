@@ -1,0 +1,31 @@
+Displayable 
+
+display()
+
+Displayable(ABC)
+ConferenceType(Enum)
+Member(Displayable)
+Conference(Displayable)
+Organization(Displayable)
+Main
+
+add_member - ConferenceRoom class and Organization class.
+remove_members - ConferenceRoom class 
+get_top_five_members - Organization class.
+get_member - Organization class.
+
+
+
+
+    def find_members_no_conference_rooms(self) -> List[Member]:
+        assigned_members = set()
+        for room in self._conference_rooms:
+            for member in room._members:
+                assigned_members.add(member)
+
+        unassigned_members = []
+        for member in self._members:
+            if member not in assigned_members:
+                unassigned_members.append(member)
+
+        return unassigned_members

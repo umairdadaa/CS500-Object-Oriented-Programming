@@ -1,0 +1,10 @@
+BOOK,111,Programming in C++,"Feb 2, 2023",Hardcover,Programming,Peter
+BOOK,121,Advanced Programming in C++,"Jun 6, 2022",Hardcover,Programming,Lily
+MOVIE,221,Star Wars,"May 25, 1977",Adventure,DVD,George Lucas,"Mark Hamill, Harrison Ford, Carrie Fisher",1977,121
+PERIODICAL,331,Wall Street Journal 167(15),"Oct 23, 2023",Journal
+PERIODICAL,332,Time 168(18),"Oct 26, 2023",Magazine
+MOVIE,101,TM,"Feb 20, 2022",some,DVD,Me,Just Me,2025,150
+BOOK,1120,Umair,202,Hardcover,MAC,ME
+PERIODICAL,99,t,t,Journal
+ARTICLE,Elon Musk's Struggle for the Future of AI 1. Unfortunately,Walter Isaacson,"""Oct 26","2023"""
+ARTICLE,Elon Musk's Struggle for the Future of AI 2. Fortunately,Walter Isaacson,"""Oct 26","2023"""
